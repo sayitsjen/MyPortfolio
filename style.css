@@ -1,0 +1,113 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #212121;
+}
+
+nav {
+    background: transparent;
+    box-shadow: none!important;
+}
+
+.nav-wrapper {
+    background-color: transparent;
+    border-radius: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav .brand-logo {
+    color: #ad1457;
+}
+
+.brand-logo {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: -5px;
+}
+
+.container {
+    margin-top: 150px;
+    color: white;
+}
+
+.intro{
+    font-weight: 400;
+}
+
+.btn-large {
+    border-radius: 50px;
+    background-color: #ad1457;
+}
+
+.btn-large:hover{
+    background-color: #880e4f;
+}
+.btn-large:focus {
+    background-color: #ad1457;
+}
+
+.typing-demo {
+    width: 325px;
+    animation: typing 4s steps(25) infinite, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    color: #ad1457;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  a {
+    color: #ad1457;
+  }
+
+.about {
+    margin-top: 250px;
+    border-top: 1px solid white;
+}
+.contacts {
+    margin-top: 150px;
+    border-top: 1px solid white;
+}
+.links {
+    margin-top: 150px;
+    border-top: 1px solid white;
+}
+
+.icon-pics{
+    margin: 5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.icns {
+    width: 50px;
+}
+
+.icns-1 {
+    width: 100px;
+}
+
+.pics {
+    width: 80px;
+    height: 80px;
+}
+
+.links-in {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
